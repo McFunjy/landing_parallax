@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лэндинг</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/button.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.5.0/parallax.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="header-logo">
+      <img class="header-logo-image" src="images/logo.svg" alt="honor">
+    </div>
+    <div class="header-nav">
+      <ul>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#features">Особенности</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#config">Конфигурация</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link button button-call" href="tel:">Позвонить</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="intro">
+      <h2 class="slogan">Весь мир всегда под рукой</h2>
+      <div class="image-main" data-parallax="scroll" data-image-src="images/main.jpg"></div>
+      <a class="button button-buy" href="#config">Купить</a>
+    </div>
+    <div class="features" id="features">
+      <div class="feature">
+        <img class="icon" src="images/cpu.png" alt="CPU">
+        <p class="text">
+          Процессор AMD Ryzen™ 5 5600Н с архитектурой «Zen 3»
+          на основе процесса 7 нм в максимальной комплектации.
+        </p>
+      </div>
+      <div class="feature">
+        <img class="icon" src="images/energy.png" alt="Батарея">
+        <p class="text">
+          Ноутбук HONOR MagicBook 16 оснащен аккумулятором большой емкости,
+          который позволяет смотреть видео или работать в браузере до 8 часов13 без перерыва.
+        </p>
+      </div>
+      <div class="feature">
+        <img class="icon" src="images/finger.png" alt="Отпечаток пальца">
+        <p class="text">
+          Встроенный в кнопку питания сканер отпечатков пальцев позволяет
+          разблокировать HONOR MagicBook 16 одним легким касанием.
+        </p>
+      </div>
+    </div>
+    <div class="config" id="config">
+      <h3 class="sub-title">Конфигуряция</h3>
+      <div class="column-3">
+        <div class="wrapper">
+          <h4 class="sub-title-small">Процессор</h4>
+          <p class="text-small">AMD Ryzen™ 5 5600H</p>
+        </div>
+        <div class="wrapper">
+          <h4 class="sub-title-small">Встроенная память</h4>
+          <p class="text-small">512 Гб</p>
+        </div>
+        <div class="wrapper">
+          <h4 class="sub-title-small">Оперативная память</h4>
+          <p class="text-small">16 Гб</p>
+        </div>
+      </div>
+      <div class="button-center">
+        <a class="button button-buy-main" href="#">Купить</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

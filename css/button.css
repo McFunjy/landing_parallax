@@ -1,0 +1,24 @@
+.button {
+  color: whitesmoke;
+  background: black;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-call {
+  padding: 0.8em;
+}
+
+.button-buy {
+  font-size: 1.5em;
+  padding: 0.8em 1.2em;
+  bottom: 0;
+  position: absolute;
+  margin-left: 75%;
+  margin-bottom: 10%;
+}
+
+.button-buy-main {
+  padding: 1em 2em;
+}

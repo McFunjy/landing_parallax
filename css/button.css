@@ -22,3 +22,11 @@
 .button-buy-main {
   padding: 1em 2em;
 }
+
+@media (max-width: 700px) {
+  .button-buy {
+    margin-left: 37%;
+    position: static;
+  }
+}
+

@@ -7,7 +7,7 @@
 body {
   margin: auto;
   font-family: sans-serif;
-  min-width: 660px;
+  /*min-width: 660px;*/
 }
 
 .container {
@@ -89,4 +89,23 @@ body {
   font-size: 1.5em;
   margin: 3em 0;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 70%;
+  }
+  .column-3 {
+    display: block;
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro {
+    position: static;
+  }
+  .image-main {
+    margin-bottom: 30px;
+  }
 }
